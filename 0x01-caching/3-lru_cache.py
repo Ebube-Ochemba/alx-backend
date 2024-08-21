@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""2-lifo_cache
-A dictionary to illustrate LRI
+"""3-lru_cache
+A dictionary to illustrate LRU
 """
 from base_caching import BaseCaching
 
