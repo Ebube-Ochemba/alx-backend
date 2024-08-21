@@ -9,6 +9,8 @@ In this repository, you will find a collection of projects and assignments that 
 ## List of Projects
 
 - [0x00. Pagination](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x00-pagination)
+- [0x01. Caching](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x01-caching)
+- [](https://github.com/Ebube-Ochemba/alx-backend/blob/main/)
 
 ## Environment
 - Languages: Python
