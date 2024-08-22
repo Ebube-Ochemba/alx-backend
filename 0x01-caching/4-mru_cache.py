@@ -26,8 +26,9 @@ class MRUCache(BaseCaching):
 
         if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             # Evict the most recently used item
-            mru_key = self.usage_order.pop()
+            mru_key = self.usage_order[-2]
             del self.cache_data[mru_key]
+            self.usage_order.remove(mru_key)
             print(f"DISCARD: {mru_key}")
 
     def get(self, key):
