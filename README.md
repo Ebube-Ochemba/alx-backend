@@ -10,7 +10,7 @@ In this repository, you will find a collection of projects and assignments that 
 
 - [0x00. Pagination](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x00-pagination)
 - [0x01. Caching](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x01-caching)
-- [](https://github.com/Ebube-Ochemba/alx-backend/blob/main/)
+- [0x02. i18n](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n)
 
 ## Environment
 - Languages: Python
