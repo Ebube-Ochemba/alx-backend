@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Entry point of the web application"""
 from flask import Flask, render_template
 from typing import Any
