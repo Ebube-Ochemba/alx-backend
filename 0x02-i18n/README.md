@@ -10,8 +10,8 @@ I learnt about how to parametrize Flask templates to display different languages
 
 > Each file contains the solution to a task in the project.
 
-- [ ] [0-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/0-app.py):
-    - [templates/0-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/0-index.html):
+- [x] [0-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/0-app.py): Setup a basic Flask app.
+    - [templates/0-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/0-index.html): A simple template to be rendered.
 - [ ] [1-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/1-app.py):
     - [templates/1-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/1-index.html):
 - [ ] [2-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/2-app.py):
