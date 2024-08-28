@@ -2,7 +2,7 @@
 """Entry point of the web application"""
 from flask import Flask, render_template, request, g
 from flask_babel import Babel
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Union
 
 app = Flask(__name__)
 
@@ -41,7 +41,7 @@ def get_locale() -> str:
     return request.accept_languages.best_match(app.config["LANGUAGES"])
 
 
-def get_user() -> Optional[Dict[str, str]]:
+def get_user() -> Union[Dict, None]:
     """Retrieve a user by provided id."""
     try:
         user_id = int(request.args.get("login_as"))
