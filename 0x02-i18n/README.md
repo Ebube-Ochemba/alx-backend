@@ -22,7 +22,7 @@ I learnt about how to parametrize Flask templates to display different languages
     - [templates/4-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/4-index.html): A simple template to be rendered.
 - [x] [5-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/5-app.py): Creating a user login system is outside the scope of this project.
     - [templates/5-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/5-index.html): A simple template to be rendered.
-- [ ] [6-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/6-app.py): Change your `get_locale` function to use a user’s preferred local if it is supported.
+- [x] [6-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/6-app.py): Change your `get_locale` function to use a user’s preferred local if it is supported.
     - [templates/6-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/6-index.html): A simple template to be rendered.
 - [ ] [7-app.py](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/7-app.py):
     - [templates/7-index.html](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x02-i18n/templates/7-index.html): A simple template to be rendered.
