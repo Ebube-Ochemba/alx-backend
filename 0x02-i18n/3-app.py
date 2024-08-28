@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Entry point of the web application"""
 from flask import Flask, render_template, request
-from flask_babel import Babel, gettext as _
+from flask_babel import Babel
 from typing import Any
 
 app = Flask(__name__)
