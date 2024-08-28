@@ -22,7 +22,7 @@ app.config.from_object(Config)
 babel = Babel(app)
 
 
-# @babel.localeselector
+@babel.localeselector
 def get_locale() -> str:
     """Determine the best match with our supported languages."""
     # Use request.accept_languages to determine the best match
@@ -32,7 +32,7 @@ def get_locale() -> str:
 @app.route("/", strict_slashes=False)
 def index() -> Any:
     """renders a simple template"""
-    return render_template("3-index.html", locale_selector=get_locale)
+    return render_template("3-index.html")
 
 
 if __name__ == "__main__":
