@@ -32,7 +32,7 @@ def get_locale() -> str:
 @app.route("/", strict_slashes=False)
 def index() -> Any:
     """renders a simple template"""
-    return render_template("3-index.html")
+    return render_template("3-index.html", locale_selector=get_locale)
 
 
 if __name__ == "__main__":
