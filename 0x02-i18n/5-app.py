@@ -34,8 +34,8 @@ users = {
 def get_locale() -> str:
     """Determine the best match with our supported languages."""
     # Check for 'locale' parameter in the request
-    locale = request.args.get('locale')
-    if locale in app.config['LANGUAGES']:
+    locale = request.args.get("locale")
+    if locale in app.config["LANGUAGES"]:
         return locale
     # Use default behavior if no valid 'locale' parameter is found
     return request.accept_languages.best_match(app.config["LANGUAGES"])
@@ -44,10 +44,11 @@ def get_locale() -> str:
 def get_user() -> Optional[Dict[str, str]]:
     """Retrieve a user by provided id."""
     try:
-        user_id = int(request.args.get('login_as'))
+        user_id = int(request.args.get("login_as"))
         return users.get(user_id)
     except (TypeError, ValueError):
         return None
+
 
 @app.before_request
 def before_request() -> None:
