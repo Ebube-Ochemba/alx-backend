@@ -10,4 +10,8 @@ I learnt about how to run a Redis server on your machine, how to run simple oper
 
 > Each file contains the solution to a task in the project.
 
-- [ ] []():
+- [ ] [](https://github.com/Ebube-Ochemba/alx-backend/blob/main/0x03-queuing_system_in_js/):
+
+> [package.json](./package.json): A manifest for the project dependencies. Provided by Alx.
+
+> [babel.config.js](./babel.config.js): A babel configuration file. Provided by Alx.
